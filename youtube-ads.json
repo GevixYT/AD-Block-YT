@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "action": {"type": "block"},
+    "condition": {
+      "initiatorDomains": ["www.youtube.com", "www.youtube-nocookie.com"],
+      "urlFilter": "||youtube.com/pagead/"
+    }
+  },
+  {
+    "id": 2,
+    "action": {"type": "block"},
+    "condition": {
+      "initiatorDomains": ["www.youtube.com", "www.youtube-nocookie.com"],
+      "urlFilter": "||youtube.com/youtubei/v1/player/ad_break"
+    }
+  },
+  {
+    "id": 3,
+    "action": {"type": "block"},
+    "condition": {
+      "initiatorDomains": ["www.youtube.com", "www.youtube-nocookie.com"],
+      "urlFilter": "||googleads.g.doubleclick.net^"
+    }
+  },
+  {
+    "id": 4,
+    "action": {"type": "block"},
+    "condition": {
+      "initiatorDomains": ["www.youtube.com", "www.youtube-nocookie.com"],
+      "urlFilter": "||google.com/pagead/"
+    }
+  },
+  {
+    "id": 5,
+    "action": {"type": "block"},
+    "condition": {
+      "initiatorDomains": ["www.youtube.com", "www.youtube-nocookie.com"],
+      "requestDomains": ["pagead2.googlesyndication.com", "tpc.googlesyndication.com", "pubads.g.doubleclick.net"]
+    }
+  }
+]
